@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+.header_left_logo {
+  display: inline-block;
+  height: 90px;
+  vertical-align: middle;
+}
+#header_logo {
+  height: 100%;
+}
+.card {
+  border-radius: 25px;
+  background-image: url('https://cdn.jsdelivr.net/gh/Dev01-logic/angular-pnklineliff-devlogic@main/src/assets/img/19366.jpg');
+  border: 1px solid #35405e;
+}
+.center_margin {
+  margin-top: 65px;
+}
+.btn_sign_up {
+  width: 200px;
+  border-radius: 50px;
+}
+.btn_sign_out {
+  width: 300px;
+  border-radius: 50px;
+}
+.center_margin_btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.txt_header {
+  color: #35405e;
+  margin-bottom: 20px;
+}
+.btn_logout {
+  width: 300px;
+  border-radius: 50px;
+}

@@ -1,0 +1,82 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+.header_left_logo {
+  display: inline-block;
+  height: 90px;
+  vertical-align: middle;
+}
+#header_logo {
+  height: 100%;
+}
+.card {
+  border-radius: 25px;
+  background-image: url('https://cdn.jsdelivr.net/gh/Dev01-logic/angular-pnklineliff-devlogic@main/src/assets/img/19366.jpg');
+  border: 1px solid #35405e;
+}
+.txt_header {
+  color: #35405e;
+  margin-bottom: 20px;
+}
+.logo {
+  margin-bottom: 70px;
+}
+.rounded_circle_img {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.center_margin {
+  margin-top: 20px;
+}
+.btn_logout {
+  width: 300px;
+  border-radius: 50px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+}
+.styled-table thead tr {
+  background-color: #35405e;
+  color: #ffffff;
+  text-align: left;
+  border-radius: 50px;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  border-radius: 50px;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  border-radius: 50px;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #eff5f4;
+  border-radius: 50px;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #e2e6e5;
+  border-radius: 50px;
+}
+.center_margin_btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

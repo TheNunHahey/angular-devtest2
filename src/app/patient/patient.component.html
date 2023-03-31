@@ -1,0 +1,47 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title-group>
+      <img mat-card-md-image src="{{ urlimg }}" style="float: right;" />
+      <mat-card-title>Patient Information</mat-card-title>
+      <mat-card-subtitle>ชื่อ {{ name }}</mat-card-subtitle>
+      <mat-card-subtitle>อายุ {{ age }}</mat-card-subtitle>
+      <mat-card-subtitle>HN: {{ tmphn }}</mat-card-subtitle>
+      <mat-card-subtitle>IDCard: {{ idcard }}</mat-card-subtitle>
+      <mat-card-subtitle>LineUser: {{ userid }}</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card-header>
+</mat-card>
+<div class="text-center">
+  <div
+    class="btn-group"
+    role="group"
+    aria-label="Basic checkbox toggle button group"
+  >
+    <input
+      id="home"
+      type="radio"
+      class="btn-check"
+      name="menu-options"
+      routerLink="chidappointment"
+      routerLinkActive="router-link-active"
+      autocomplete="off"
+      checked
+    />
+    <label for="home" class="btn btn-outline-primary">นัดหมาย</label>
+    <input
+      id="personal"
+      type="radio"
+      class="btn-check"
+      name="menu-options"
+      routerLink="history"
+      autocomplete="off"
+    />
+    <label for="personal" class="btn btn-outline-primary"
+      >ประวัติการรักษา</label
+    >
+  </div>
+</div>
+<br />
+<div class="container">
+  <app-appointment></app-appointment>
+</div>

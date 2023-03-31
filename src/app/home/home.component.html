@@ -1,0 +1,24 @@
+<!-- As a link -->
+<div class="loader-container" *ngIf="loaderService.isLoading | async">
+  <mat-spinner class="spinner"></mat-spinner>
+</div>
+<div class="logo text-center">
+  <img
+    width="250"
+    src="https://dev-logic.net/dxapi/img/pnk/pnk_rh_menu_line_Connect.png"
+    class="rounded-circle rounded_circle_img"
+    alt="logo"
+  />
+</div>
+<br />
+<div class="text-center center_margin_btn">
+  <button
+    type="button"
+    class="btn btn-light btn-lg btn_login"
+    (click)="onClick($event)"
+  >
+    <span class="text-white"
+      ><i class="fab fa-line fa-1x text-center"></i>LINE Login</span
+    >
+  </button>
+</div>

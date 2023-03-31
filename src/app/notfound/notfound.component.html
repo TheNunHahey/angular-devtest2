@@ -1,0 +1,56 @@
+<div class="container-fluid">
+  <div
+    class="d-flex align-items-center justify-content-center"
+    style="padding-bottom:20px; margin-top: 10px;"
+  >
+    <button
+      type="button"
+      class="btn btn-warning btn-lg position-relative"
+      type="button"
+      (click)="onTest2($event)"
+    >
+      <i class="las la-exclamation-circle la-5x text-white"></i>
+      <h1 class="text-white">ไม่พบข้อมูลของท่าน !</h1>
+      <h3 class="text-white">กรุณาติดต่อเจ้าหน้าที่ลงทะเบียน</h3>
+      <svg
+        width="3em"
+        height="3em"
+        viewBox="0 0 16 16"
+        class="
+          position-absolute
+          top-100
+          start-50
+          translate-middle
+          mt-2
+          bi bi-caret-down-fill
+        "
+        fill="#ffc107"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    class="d-flex align-items-center justify-content-center"
+    style="padding-bottom:50px;"
+  >
+    <img
+      src="https://dev-logic.net/dxapi/img/pnk/nurse_260.png"
+      class="rounded-circle"
+      alt="nurse"
+      style="width: 400px;"
+    />
+  </div>
+  <div class="text-center center_margin_btn">
+    <button
+      type="button"
+      class="btn btn-danger btn-lg btn_logout"
+      (click)="onlogout($event)"
+    >
+      <span class="text-white"> Cancel</span>
+    </button>
+  </div>
+</div>
